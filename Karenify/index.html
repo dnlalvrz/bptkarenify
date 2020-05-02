@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Karenify</title>
+    <link rel="stylesheet" type="text/css" href="karenify.css">
+</header>
+
+<body>
+
+    <div class="flex-container">
+
+        <div>
+        <h1>Copy-paste lyrics into the box to Karenify</hi>
+        <div class='lyrics'>
+                <div><textarea class="lyricsbox" id="dirty"></textarea></div>
+                <div><button onclick="karenify()">Try it</button></div>
+        </div>
+        </div>
+
+        <div class="beforeDiv">
+            <pre id="before">Before
+                </pre>
+        </div>
+
+        <div class="afterDiv">
+            <pre id="after">After
+            </pre>
+        </div>
+
+    </div>
+
+</body>
+
+<footer>
+    <script src="karenify.js"></script>
+</footer>
+
+</html>
